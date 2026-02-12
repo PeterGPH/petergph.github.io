@@ -12,8 +12,8 @@ title                    : "DUMPS"
 title_separator          : "-"
 name                     : &name "Pinhao Gu"
 description              : &description "Theoretical and Computational PhD student at UIUC"
-url                      : https://petergph.github.io/gupinhao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+url                      : https://petergph.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/gupinhao.github.io" # the subpath of your site, e.g. "/blog"
 repository               : "PeterGPH/gupinhao.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -86,7 +86,7 @@ publication_category:
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
