@@ -160,6 +160,9 @@ include:
   - _pages
   - files
 exclude:
+  # _private holds unpublished notes. It is also in .gitignore, so it is never
+  # committed and never reaches the site. Keep both entries.
+  - _private
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

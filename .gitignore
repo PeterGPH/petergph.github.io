@@ -12,3 +12,7 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+
+# Private notes: never published, never committed. Anything in _private/ stays
+# on this machine only. See _private/README.md.
+_private/

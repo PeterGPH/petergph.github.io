@@ -9,8 +9,10 @@ main:
   - title: "Teaching"
     url: /teaching/
 
-  - title: "Blog"
-    url: /year-archive/
+  # Blog is hidden while no posts are published: /year-archive/ would be an
+  # empty page. Uncomment these two lines when the first note goes public.
+  # - title: "Blog"
+  #   url: /year-archive/
 
   - title: "CV"
     url: /cv/
