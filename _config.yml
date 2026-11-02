@@ -8,13 +8,17 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "DUMPS"
+title                    : "Pinhao Gu"
 title_separator          : "-"
 name                     : &name "Pinhao Gu"
 description              : &description "Theoretical and Computational PhD student at UIUC"
 url                      : https://petergph.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/gupinhao.github.io" # the subpath of your site, e.g. "/blog"
-repository               : "PeterGPH/gupinhao.github.io"
+# KEEP baseurl EMPTY. This is a user site served at the domain root, not a
+# project site on a subpath. Any value here is prefixed onto every stylesheet,
+# image and nav link, and the pages then answer 200 but render unstyled with
+# dead navigation.
+baseurl                  : ""
+repository               : "PeterGPH/petergph.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
